@@ -1,0 +1,11 @@
+Rails:
+  Enabled: true
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/bundle/**/*'
+
+Metrics/LineLength:
+  Max: 120
+
