@@ -1,3 +1,3 @@
-# $B4pDl%X%k%Q!<(B
+# 基底ヘルパー
 module ApplicationHelper
 end

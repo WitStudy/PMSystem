@@ -1,3 +1,3 @@
-# $B5-;v%X%k%Q!<(B
+# 記事ヘルパー
 module ArticlesHelper
 end

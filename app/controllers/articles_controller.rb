@@ -1,4 +1,4 @@
-# $B5-;v%3%s%H%m!<%i(B
+# 記事コントローラ
 class ArticlesController < ApplicationController
   before_action :set_article, only: %i[show edit update destroy]
 

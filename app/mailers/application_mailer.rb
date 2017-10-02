@@ -1,4 +1,4 @@
-# $B4pDl%a!<%i(B
+# 基底メーラ
 class ApplicationMailer < ActionMailer::Base
   default from: 'from@example.com'
   layout 'mailer'

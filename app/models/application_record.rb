@@ -1,4 +1,4 @@
-# $B4pDl%b%G%k(B
+# 基底モデル
 class ApplicationRecord < ActiveRecord::Base
   self.abstract_class = true
 end

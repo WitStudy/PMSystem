@@ -1,4 +1,4 @@
-# $B4pDl%3%s%H%m!<%i(B
+# 基底コントローラ
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 end
