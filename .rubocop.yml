@@ -6,6 +6,10 @@ AllCops:
     - 'db/**/*'
     - 'vendor/bundle/**/*'
 
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
 Metrics/LineLength:
   Max: 120
 
