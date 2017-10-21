@@ -40,6 +40,7 @@ group :development, :test do
   gem 'factory_girl_rails', '4.8.0'
   gem 'rails-controller-testing', '1.0.2'
   gem 'rspec-rails', '3.6.1'
+  gem 'shoulda-matchers', '3.1.2'
 end
 
 group :development do
