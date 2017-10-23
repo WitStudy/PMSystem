@@ -11,6 +11,21 @@
     </div>
   <% end %>
 
+  <table>
+    <tr>
+      <th>title</th>
+      <td><%= form.text_field(:title) %></td>
+    </tr>
+    <tr>
+      <th>content</th>
+      <td><%= form.text_area(:content) %></td>
+    </tr>
+    <tr>
+      <th>author</th>
+      <td><%= form.text_field(:author) %></td>
+    </tr>
+  </table>
+
   <div class="actions">
     <%= form.submit %>
   </div>
