@@ -14,15 +14,15 @@
   <table>
     <tr>
       <th>title</th>
-      <td><%= form.text_field(:title) %></td>
+      <td><%= form.text_field(:title, size: Article::MAX_VAR_CHAR / 4, maxlength: Article::MAX_VAR_CHAR) %></td>
     </tr>
     <tr>
       <th>content</th>
-      <td><%= form.text_area(:content) %></td>
+      <td><%= form.text_area(:content, size: "#{ Article::MAX_VAR_CHAR / 4 }x#{ Article::MAX_VAR_CHAR / 8 }", maxlength: Article::MAX_VAR_CHAR) %></td>
     </tr>
     <tr>
       <th>author</th>
-      <td><%= form.text_field(:author) %></td>
+      <td><%= form.text_field(:author, size: Article::MAX_VAR_CHAR / 4, maxlength: Article::MAX_VAR_CHAR) %></td>
     </tr>
   </table>
 
